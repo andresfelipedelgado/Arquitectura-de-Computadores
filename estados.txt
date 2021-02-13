@@ -1,0 +1,38 @@
+estados
+
+FETCH: 0000
+DECODE: 1111
+
+OPCODE:
+	lw: 0011
+	sw: 0101
+	beq: 0010
+	j: 0001
+	suma: 0111
+	resta: 1001
+	and: 1010
+	or: 1011
+
+nivel 1: (igual al opcode)
+
+	menos lw y sw que estan en 1110
+
+	en tipo R para el ALUOP:
+	R ESTADO GENERAL: 0100
+	ALUOP TIPOS R
+	Suma:  0010
+	Resta: 0110
+	And:   0000
+	Or:    0001
+
+	
+nivel 2:
+	lw: 0011
+	sw: 0101
+	r : 1100
+nivel 3:
+	lw: 1000
+	
+
+SABADO 24 ENTREGA FINAL 
+
